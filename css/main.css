@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+.main{
+	width: 32rem;
+	height: 46rem;
+	outline: 0.1rem solid black;
+	margin: 0 auto;
+	margin-top: 1rem;
+	padding-top: 2rem;
+}
+.main>.topImg{
+	width: 15rem;
+	height: 16rem;
+	margin: 0 auto;
+}
+.main>.topImg>img{
+	width: 100%;
+	height: 100%;
+}
+.main>.loginBtn{
+	width: 27rem;
+	height: 3rem;
+	/*border: 0.1rem solid white;*/
+	text-align: center;
+	/*line-height: 4rem;*/
+	margin: 0 auto;
+	margin-top: 4rem;
+	box-shadow: 0rem 0rem 0.8rem 0rem lightgrey;
+	
+	}
+.main>.loginBtn>button{
+	width: 27rem;
+	height: 3rem;
+	background-color: white;
+	font-family: "微软雅黑";
+	/*font-weight: bold;*/
+	outline: none;
+	/*border: none;*/
+	border: 0.1rem solid lightgray;
+	color: #596493;
+	font-weight: 600;
+}
+.main>.loginBtn>button:hover{
+	cursor: pointer;
+}
+.main>.loginBtn:active{
+	box-shadow: 0rem 0rem 0rem 0rem white;
+}
+.main>.registerBtn{
+	width: 27rem;
+	height: 3rem;
+	/*border: 0.1rem solid white;*/
+	text-align: center;
+	/*line-height: 4rem;*/
+	margin: 0 auto;
+	margin-top: 3rem;
+	box-shadow: 0rem 0rem 0.8rem 0rem lightgrey;
+	
+}
+.main>.registerBtn>button{
+	width: 27rem;
+	height: 3rem;
+	background-color: white;
+	font-family: "微软雅黑";
+	/*font-weight: bold;*/
+	outline: none;
+	/*border: none;*/
+	border: 0.1rem solid lightgray;
+	color: #596493;
+	font-weight: 600;
+}
+.main>.registerBtn>button:hover{
+	cursor: pointer;
+}
+.main>.registerBtn:active{
+	box-shadow: 0rem 0rem 0rem 0rem white;
+}
+.other{
+	width: 27rem;
+	height: 3rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 3rem;
+	line-height: 3rem;
+}
+.main>.other>span:nth-of-type(1){
+	display: inline-block;
+	width: 8rem;
+	height: 0rem;
+	background-color: black;
+	outline: 0.1rem solid black;
+	margin-right: 2rem;
+	margin-bottom: 0.2rem;
+}
+.main>.other>span:nth-of-type(3){
+	display: inline-block;
+	width: 8rem;
+	height: 0rem;
+	background-color: black;
+	outline: 0.1rem solid black;
+	margin-left: 2rem;
+	margin-bottom: 0.2rem;
+}
+.main>.other>span:nth-of-type(2){
+	font-size: 1rem;
+}
+.main>.other>span:nth-of-type(2):hover{
+	color: #596493;
+	cursor: pointer;
+}
+.imgBottom{
+	width: 25rem;
+	height: 10rem;
+	/*outline: 0.1rem solid red;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: 10rem;
+}
+.imgBottom>img{
+	width: 3.5rem;
+	height: 3.5rem;
+}
+.imgBottom>img:nth-of-type(2){
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+.imgBottom>img:hover{
+	cursor: pointer;
+}

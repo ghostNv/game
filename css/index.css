@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+#main{
+	width: 34rem;
+	height: 34rem;
+	background-color: blue;
+	/*border: 1rem solid red;*/
+	/*margin-left: 2rem;*/
+}
+#main>div{
+	width: 10rem;
+	height: 10rem;
+	background-color: white;
+	float: left;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}

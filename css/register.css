@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+.main{
+	width: 32rem;
+	height: 46rem;
+	outline: 0.1rem solid black;
+	margin: 0 auto;
+	margin-top: 1rem;
+	/*padding-top: 2rem;*/
+}
+.main>.top{
+	width: 32rem;
+	height: 6rem;
+	background-color: #50B4F9;
+	color: white;
+	line-height: 6rem;
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+}
+.main>.top>span>a{
+	color: white;
+	text-decoration: none;
+}
+.main>.top>span:nth-of-type(2){
+	margin-left: 10rem;
+}
+.main>.grey{
+	width: 32rem;
+	height: 5rem;
+	background-color: lightgrey;
+	line-height: 5rem;
+	font-family: "微软雅黑";
+	font-size: 1.1rem;
+}
+.main>.grey>span{
+	margin-left: 1rem;
+}
+.main>.input{
+	width: 32rem;
+	height: 20rem;
+	/*outline: 0.1rem solid red;*/
+	/*margin: 0 auto;*/
+}
+.main>.input>.phone{
+	width: 30rem;
+	height: 4rem;
+	/*outline: 0.1rem solid red;*/
+	border-bottom: 0.1rem solid darkgrey;
+	margin: 0 auto;
+}
+.main>.input>.phone>span{
+	display: inline-block;
+	width: 5rem;
+	height: 4rem;
+	text-align: center;
+	/*line-height: 4rem;*/
+	/*padding-top: 0.4rem;*/
+	vertical-align: middle;
+	/*outline: 0.1rem solid red;*/
+}
+.main>.input>.phone>span>img{
+	width: 2.2rem;
+	height: 3.4rem;
+	margin-top: 0.2rem;
+}
+.main>.input>.phone>input{
+	width: 23rem;
+	height: 3.8rem;
+	outline: none;
+	border: none;
+	/*font-size: 1.2rem;*/
+}
+.main>.pass{
+	width: 32rem;
+	height: 20rem;
+	/*outline: 0.1rem solid red;*/
+	/*margin: 0 auto;*/
+}
+.main>.input>.pass{
+	width: 30rem;
+	height: 4rem;
+	/*outline: 0.1rem solid red;*/
+	border-bottom: 0.1rem solid darkgrey;
+	margin: 0 auto;
+}
+.main>.input>.pass>span{
+	display: inline-block;
+	width: 5rem;
+	height: 4rem;
+	text-align: center;
+	/*line-height: 4rem;*/
+	/*padding-top: 0.4rem;*/
+	vertical-align: middle;
+	/*outline: 0.1rem solid red;*/
+}
+.main>.input>.pass>span>img{
+	width: 2.2rem;
+	height: 3.4rem;
+	margin-top: 0.2rem;
+}
+.main>.input>.pass>input{
+	width: 23rem;
+	height: 3.8rem;
+	outline: none;
+	border: none;
+	/*font-size: 1.2rem;*/
+}
+.main>.passAgain{
+	width: 32rem;
+	height: 20rem;
+	/*outline: 0.1rem solid red;*/
+	/*margin: 0 auto;*/
+}
+.main>.input>.passAgain{
+	width: 30rem;
+	height: 4rem;
+	/*outline: 0.1rem solid red;*/
+	border-bottom: 0.1rem solid darkgrey;
+	margin: 0 auto;
+}
+.main>.input>.passAgain>span{
+	display: inline-block;
+	width: 5rem;
+	height: 4rem;
+	text-align: center;
+	/*line-height: 4rem;*/
+	/*padding-top: 0.4rem;*/
+	vertical-align: middle;
+	/*outline: 0.1rem solid red;*/
+}
+.main>.input>.passAgain>span>img{
+	width: 2.2rem;
+	height: 3.4rem;
+	margin-top: 0.2rem;
+}
+.main>.input>.passAgain>input{
+	width: 23rem;
+	height: 3.8rem;
+	outline: none;
+	border: none;
+	/*font-size: 1.2rem;*/
+}
+.main>.code{
+	width: 32rem;
+	height: 20rem;
+	/*outline: 0.1rem solid red;*/
+	/*margin: 0 auto;*/
+}
+.main>.input>.code{
+	width: 30rem;
+	height: 4rem;
+	/*outline: 0.1rem solid red;*/
+	border-bottom: 0.1rem solid darkgrey;
+	margin: 0 auto;
+}
+.main>.input>.code>span{
+	display: inline-block;
+	width: 5rem;
+	height: 4rem;
+	text-align: center;
+	/*line-height: 4rem;*/
+	/*padding-top: 0.4rem;*/
+	vertical-align: middle;
+	/*outline: 0.1rem solid red;*/
+}
+.main>.input>.code>span>img{
+	width: 2.2rem;
+	height: 3.4rem;
+	margin-top: 0.2rem;
+}
+.main>.input>.code>input{
+	width: 23rem;
+	height: 3.8rem;
+	outline: none;
+	border: none;
+	/*font-size: 1.2rem;*/
+}
+#jobP{
+	margin-left: 3rem;
+	margin-top: 1rem;
+}
+#jobP>select{
+	width: 13rem;
+	height: 3rem;
+}
+.main>.bottom{
+	width: 32rem;
+	height: 13rem;
+	margin-top: 2rem;
+	background-color: lightgrey;
+}
+.main>.bottom>.contract{
+	width: 30rem;
+	height: 4rem;
+	margin: 0 auto;
+	line-height: 4rem;
+	/*outline: 0.1rem solid red;*/
+}
+.main>.bottom>.contract>span>a{
+	text-decoration: none;
+}
+.main>.bottom>.contract>span>a:visited{
+	color: blue;
+}
+.main>.bottom>.reg{
+	width: 30rem;
+	height: 4rem;
+	margin: 0 auto;
+	/*outline: 0.1rem solid red;*/
+}
+.main>.bottom>.reg>button{
+	width: 30rem;
+	height: 4rem;
+	background-color: #21A9F5;
+	color: white;
+	font-family: "微软雅黑";
+	outline: none;
+}
